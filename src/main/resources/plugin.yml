@@ -1,0 +1,26 @@
+name: FletchQuests
+version: '${project.version}'
+main: fletchplugins.fletchquests.FletchQuests
+api-version: 1.20
+commands:
+  quests:
+    description: opens up the quest menu
+    usage: /quests
+  createquest:
+    description: add a new quest to the menu
+    usage: /createquest
+  deletequest:
+    description: delete a quest from the menu
+    usage: /deletequest
+  editquest:
+    description: edit an existing quest
+    usage: /editquest
+  baba:
+    description: baba
+    usage: /baba
+  grantquest:
+    description: grant a player the rewards for a given quest
+    usage: /editquest
+  flairs:
+    description: opens the flairs menu
+    usage: /flairs
